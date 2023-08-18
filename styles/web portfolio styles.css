@@ -24,7 +24,7 @@ body{
 }
 
 .section-description{
-    color: #757575);
+    color: #757575;
     text-align: center;
     font-family: Open Sans;
     font-size: 18px;
@@ -94,9 +94,10 @@ nav a{
 }
 
 /* main section styles*/
-
-
-
+main{
+    max-width: 1140px;
+    margin: 0px auto;
+}
 
 
 /*about section styles*/
@@ -106,5 +107,22 @@ nav a{
     background: #FFF8F3;
     margin: 130px 0;
 }
-
-
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+}
+.info-title{
+    color: #757575;
+    font-size: 20px;
+    margin-bottom: 5px;
+    font-weight: 400;
+}
+.info-description{
+    font-size: 20px;
+    color: #474747;
+    margin-top: 0;
+    font-weight: 700;
+}
